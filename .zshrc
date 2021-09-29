@@ -1,0 +1,13 @@
+alias a=alias
+a zs='. ./.zshrc'
+a d='docker'
+a db='d build'
+a drun='d run'
+a dcu='docker-compose up'
+a dp='d ps -a'
+a di='d images'
+a dsp='d stop '
+a drp='d rm'
+a drap='d rm $(d ps -a -q)'
+a dri='d rmi'
+a drai='d rmi $(di -a -q)'
