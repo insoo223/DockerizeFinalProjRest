@@ -17,6 +17,7 @@ var firebaseConfig = {
   appId: "1:592112032307:web:07d9b4d24f7aaf2dfee146"
 }; //firebaseConfig
 
+firebase.initializeApp(firebaseConfig);
 //added by Insoo on Sep 28, 2021
 //Resolve run-time error: Firebase App named '[DEFAULT]' already exists (app/duplicate-app) [duplicate]
 //ref: https://stackoverflow.com/questions/43331011/firebase-app-named-default-already-exists-app-duplicate-app
