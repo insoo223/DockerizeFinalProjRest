@@ -18,7 +18,7 @@ function Home() {
         <ApolloProvider client={client}>
           <div className="search">
               <h2> Local Restaurants:</h2>
-              <small> Docker Hub img: insoo223/prjrest:ngrok </small>
+              <small> Docker Hub img: insoo223/prjrest:ngrtimsvr </small>
               <small> Built on insooDocker Droplet</small>
                 <InputGroup >
                 <InputGroupAddon addonType="append"> Search </InputGroupAddon>
