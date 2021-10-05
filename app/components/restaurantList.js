@@ -58,7 +58,7 @@ function RestaurantList(props) {
             style={{ height: 200 }}
             src={
               // `http://localhost:1337` + res.image.url
-              `http://143.198.73.100:1337` + res.image.url
+              `http://a857-211-104-198-136.ngrok.io` + res.image.url
             }
           />
           <CardBody>

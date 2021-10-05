@@ -62,7 +62,9 @@ function DishList(props) {
           <CardImg
             top={true}
             style={{ height: 200 }}
-            src={`http://localhost:1337` + res.image.url}
+            src={
+              // `http://localhost:1337` + res.image.url
+              `http://a857-211-104-198-136.ngrok.io` + res.image.url}
           />
           <CardBody>
             <CardText>{res.description}</CardText>

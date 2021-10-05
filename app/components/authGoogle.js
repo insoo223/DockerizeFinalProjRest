@@ -111,9 +111,11 @@ export function LoginFirebase(){
     email.value,
     password.value
   );
+  promise.then (alert (`You are successfully logged in to Firebase!`));
   promise.catch((e) => console.log(e.message));
-  alert ("hi, Google auth Firebase SignIn-0")
-  alert (`You are successfully logged in using the following email: ${result.user.email}`)
+  // alert ("hi, Google auth Firebase SignIn-0")
+  
+  // alert (`You are successfully logged in to Firebase using the following email: ${result.user.email}`)
 } //LoginFirebase
 // -------------------- (End) LoginFirebase -------------------- 
 
