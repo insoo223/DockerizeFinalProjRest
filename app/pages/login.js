@@ -69,6 +69,7 @@ function Login(props) {
       .catch((error) => {
         //setError(error.response.data);
         setLoading(false);
+        alert(`Fail to login managed by Strapi. Details are: ${JSON.stringify(error)} `);
       }); //catch
     
       setLoading(false);

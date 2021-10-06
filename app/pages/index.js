@@ -19,8 +19,9 @@ function Home() {
           <div className="search">
               <h2> Local Restaurants:</h2>
               {/* <small> Docker Hub img: insoo223/prjrest:ngrtimsvr </small> */}
-              <small> Docker Hub img: insoo223/prjrest:insoodocker </small>
-              <small> Built on insooDocker Droplet</small>
+              <small> Home by Docker Hub img: insoo223/prjrest:insoodocker </small>
+              <small> Strapi by native JS running on insooDocker Droplet </small>
+              {/* <small> Built on insooDocker Droplet</small> */}
                 <InputGroup >
                 <InputGroupAddon addonType="append"> Search </InputGroupAddon>
                 <Input
