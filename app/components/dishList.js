@@ -66,8 +66,7 @@ function DishList(props) {
               // `http://localhost:1337` + res.image.url
               // TIMsver ngrok fwd address for http://localhost:1337 (started on Oct 5, 2021)
               // `http://a857-211-104-198-136.ngrok.io` + res.image.url}
-              // `http://143.198.73.100:1337` + res.image.url}
-              `http://143.198.232.38:1337` + res.image.url}
+              `http://143.198.73.100:1337` + res.image.url}
           />
           <CardBody>
             <CardText>{res.description}</CardText>
