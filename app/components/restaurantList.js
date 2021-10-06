@@ -58,6 +58,7 @@ function RestaurantList(props) {
             style={{ height: 200 }}
             src={
               // `http://localhost:1337` + res.image.url
+              // TIMsver ngrok fwd address for http://localhost:1337 (started on Oct 5, 2021)
               `http://a857-211-104-198-136.ngrok.io` + res.image.url
             }
           />
