@@ -5,6 +5,28 @@ import Home from "./index"
 import Layout from "../components/layout"
 import Cookie from "js-cookie"
 
+//insoo added on Oct 7, 2021
+/* ------------------------------------------------
+const express = require('express');
+const apExp = express();
+const swgJsDoc = require('swagger-jsdoc');
+const swgNxDoc = require('next-swagger-doc');
+const swgUI = require('swagger-ui-react');
+
+const swgOptions = {
+  swgDef: {
+    info: {
+      title: 'Insoo\'s restaurant full-stack app library API',
+      version: '1.0.0'
+    } // info
+  }, // swgDef
+  apis: ['_app.js']
+} // swgOptions
+
+const swgDocs = swgJsDoc(swgOptions);
+apExp.use('/api-docs', swgUI.serve, swgUI.setup(swgDocs));
+------------------------------------------------ */
+
 function MyApp(props){
   var {isAuthenticated, cart, addItem, removeItem, user, setUser, login} = useContext(AppContext)
   const [state,setState] = useState({cart:cart});
