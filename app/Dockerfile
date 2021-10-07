@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:14
 ENV PORT 3000
 
 # Create app directory
