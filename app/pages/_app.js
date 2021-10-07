@@ -5,7 +5,6 @@ import Home from "./index"
 import Layout from "../components/layout"
 import Cookie from "js-cookie"
 
-
 function MyApp(props){
   var {isAuthenticated, cart, addItem, removeItem, user, setUser, login} = useContext(AppContext)
   const [state,setState] = useState({cart:cart});
