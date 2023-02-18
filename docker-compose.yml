@@ -16,7 +16,8 @@ services:
     networks:
       - strapi-app-network
     volumes:
-      - ./app:/srv/app
+      - ./app :/srv/app
+      #- ./app:/app/backend
     ports:
       - "1337:1337"
   mongoexample:
