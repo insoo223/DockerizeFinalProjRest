@@ -17,7 +17,7 @@ services:
       - strapi-app-network
     volumes:
       #- ./app:/srv/app #Strapi directory error
-      - ./app :/srv/app #works fine
+      - ./insooapp:/srv/app #works fine
     ports:
       - "1337:1337"
   mongoexample:
